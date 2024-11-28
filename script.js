@@ -7,3 +7,7 @@ var visits = 0;
 visits++;
 alert("You have visited this site " + visits + " time.");
 document.body.innerHTML = `<p>you have visited this site ${visits} times.</p>`
+
+// problem#3: Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser;
+var birthYear = 1990;
+document.write("My birth year is " + birthYear);
